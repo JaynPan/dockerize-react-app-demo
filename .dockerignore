@@ -1,6 +1,6 @@
 node_modules
 build
-dockerFile
-dockerFile.dev
+DockerFile
+DockerFile.dev
 docker-compose.dev.yml
 docker-compose.yml

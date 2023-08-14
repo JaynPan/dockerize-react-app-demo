@@ -1,6 +1,7 @@
 version: '3'
 services:
-  react:
+  client:
+    image: love:2.0.1
     build:
       context: .
       dockerfile: Dockerfile.dev
@@ -8,3 +9,4 @@ services:
       - "3008:3008"
     volumes:
       - .:/app
+      - /app/node_modules
